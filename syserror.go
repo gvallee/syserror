@@ -1,3 +1,8 @@
+/*
+ * Copyright(c)         Geoffroy Vallee
+ *                      All rights reserved
+ */
+
 package syserror
 
 import ("fmt")
