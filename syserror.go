@@ -18,6 +18,7 @@ var ErrFatal = SysError{"Fatal error", -1} // Generic fatal error
 var ErrOutOfRes = SysError{"Out of resources", -2} // Out of resources (e.g., out of memory)
 var ErrNotAvailable = SysError{"Not available", -3} // The target is not available (e.g., a file does not exist)
 var ErrDataOverflow = SysError{"Data overflow", -4} // Data overflow
+var ErrInvalidArg = SysError{"Invalid argument", -5} // Invalid function argument
 
 func (err *SysError) Error() string {
 	if err.code != 0 {
