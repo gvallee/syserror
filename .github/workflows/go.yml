@@ -27,7 +27,7 @@ jobs:
     - name: Build and test
       run: |
         go build ./...
-        go test
+        go test ./...
       env:
         GOPATH: /tmp/go
 
